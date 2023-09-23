@@ -9,5 +9,6 @@ export default withAuth({
 export const config = {
   matcher: [
     "/users/:path*", // protect under /users
+    "/conversations/:path*",
   ],
 };
